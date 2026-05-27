@@ -29,8 +29,15 @@ const experiences = [
   {
     role: "Research Assistant",
     place: "SLIIT and University of Sri Jayewardenepura · Sri Lanka",
-    period: "2017 – 2021",
+    period: "2020 – 2021",
     detail: "Conducted research in computer vision, machine learning, graph neural networks, and supervised undergraduate researchers."
+  },
+
+  {
+    role: "Teaching Assistant",
+    place: "University of Sri Jayewardenepura · Sri Lanka",
+    period: "2017 – 2020",
+    detail: "Conducted regular tutorial and practical classes; supervised undergraduate students (1st–4th year) in Object-Oriented Programming (Java, C++, and C), Database Management Systems (DBMS), and Web Technologies."
   }
 ];
 
