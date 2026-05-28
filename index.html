@@ -3,226 +3,210 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal academic portfolio website for Malithi Mithsara, PhD student in Computer Science at Southern Illinois University." />
-  <title>Malithi Mithsara | PhD Researcher</title>
+  <meta name="description" content="Academic portfolio of Malithi Mithsara, PhD student in Computer Science at Southern Illinois University." />
+  <title>Malithi Mithsara</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="cursor-glow" aria-hidden="true"></div>
-
-  <header class="site-header" id="top">
-    <nav class="navbar">
-      <a class="brand" href="#top" aria-label="Malithi Mithsara home">
-        <span class="brand-mark">MM</span>
-        <span>Malithi Mithsara</span>
-      </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#about">About</a>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top">Malithi Mithsara</a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
         <a href="#research">Research</a>
-        <a href="#experience">Experience</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">◐</button>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero section-padding">
-      <div class="hero-content reveal">
-        <p class="eyebrow">PhD Student · Computer Science · SIU Carbondale</p>
-        <h1>Building secure, trustworthy, and human-centered AI for sensor-driven systems.</h1>
-        <p class="hero-text">
-          I am a Computer Science PhD student at Southern Illinois University researching human activity recognition, multimodal AI, LLM/SLM-integrated sensing, and privacy-preserving intelligent systems.
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">PhD Student · Computer Science · Southern Illinois University</p>
+        <h1>Malithi Mithsara</h1>
+        <p class="lead">
+          I work on secure and trustworthy AI for human activity recognition, multimodal sensor-language systems, and privacy-preserving small/large language model applications for healthcare and smart environments.
         </p>
-        <div class="hero-badges">
-          <span>Wearable AI Security</span>
-          <span>LLMs & SLMs</span>
-        </div>
-        <div class="hero-actions">
-          <a class="btn primary" href="#publications">View Publications</a>
-          <a class="btn secondary" href="assets/Malithi_Mithsara_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+        <div class="quick-links">
+          <a href="mailto:malithi.mithsara@siu.edu">Email</a>
+          <a href="assets/Malithi_Mithsara_CV.pdf" target="_blank" rel="noopener">CV</a>
+          <a href="https://scholar.google.com/citations?user=gChnHewAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://github.com/Malithi-gif" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.siu.edu/" target="_blank" rel="noopener">SIU</a>
         </div>
       </div>
-
-      <div class="hero-visual reveal">
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="assets/profile-square.jpg" alt="Portrait of Malithi Mithsara" />
         <div class="photo-card">
-          <img src="assets/profile.jpg" alt="Portrait of Malithi Mithsara" />
-          <div class="floating-card top-card">
-            <strong>Research Focus</strong>
-            <span>Secure multimodal HAR</span>
-          </div>
+          <strong>Research Focus</strong>
+          <span>HAR · LLMs/SLMs · Security · Multimodal AI</span>
         </div>
       </div>
     </section>
 
-    <section class="stats section-padding reveal" aria-label="Quick highlights">
-      <div class="stat-card"><span class="counter" data-target="6">0</span><p>Academic roles</p></div>
-      <div class="stat-card"><span class="counter" data-target="20">0</span><p>Publications & papers</p></div>
-      <div class="stat-card"><span class="counter" data-target="4">0</span><p>Major research areas</p></div>
-      <div class="stat-card"><span class="counter" data-target="4">0</span><p>PhD GPA</p></div>
-    </section>
-
-    <section class="section section-padding" id="about">
-      <div class="section-title reveal">
-        <p class="eyebrow">About Me</p>
-        <h2>Researcher, educator, and AI security enthusiast.</h2>
+    <section id="research" class="container section two-col">
+      <div>
+        <h2>Research</h2>
+        <p>
+          My research explores how language models can interpret sensor data while remaining secure, robust, and privacy-preserving. I focus on multimodal human activity recognition, adversarial attacks, data poisoning detection, and interpretable AI for healthcare and consumer devices.
+        </p>
       </div>
-      <div class="about-grid reveal">
-        <div class="glass-card large-card">
-          <h3>Profile</h3>
-          <p>
-            I am pursuing a PhD in Computer Science at Southern Illinois University with a 4.00/4.00 GPA. My work explores how language models can interpret sensor data while remaining secure, private, and reliable in real-world environments such as healthcare, wearable AI, and smart homes.
-          </p>
-          <p>
-            My current research studies vulnerabilities in LLM/SLM-integrated sensing systems, including data poisoning, adversarial examples, prompt injection, and cross-modal sensor-text misalignment.
-          </p>
-        </div>
-        <div class="glass-card">
-          <h3>Education</h3>
-          <ul class="clean-list">
-            <li><strong>PhD Computer Science</strong><br>Southern Illinois University, USA</li>
-            <li><strong>MSc Computer Science</strong><br>University of Sri Jayewardenepura, Sri Lanka</li>
-            <li><strong>BSc Physical Science</strong><br>University of Sri Jayewardenepura, Sri Lanka</li>
-          </ul>
-        </div>
+      <div class="research-grid">
+        <article class="pill-card"><span>01</span><strong>Sensor–Text Alignment</strong><p>Contrastive learning between wearable sensor embeddings and natural-language activity descriptions.</p></article>
+        <article class="pill-card"><span>02</span><strong>AI Security</strong><p>Data poisoning, adversarial perturbations, embedding attacks, and robust defenses for HAR systems.</p></article>
+        <article class="pill-card"><span>03</span><strong>Health AI</strong><p>Federated and interpretable SLMs for personalized health support on consumer devices.</p></article>
+        <article class="pill-card"><span>04</span><strong>Smart Environments</strong><p>Fall detection, emergency response, and LLM-integrated healthcare cyber-physical systems.</p></article>
       </div>
     </section>
 
-    <section class="section section-padding accent-section" id="research">
-      <div class="section-title reveal">
-        <p class="eyebrow">Research</p>
-        <h2>Secure multimodal intelligence for human activity understanding.</h2>
-      </div>
-      <div class="research-grid reveal">
-        <article class="research-card active" data-topic="har">
-          <span class="icon">⌚</span>
-          <h3>Human Activity Recognition</h3>
-          <p>Interpreting wearable and mobile sensor signals for real-time human behavior analysis.</p>
-        </article>
-        <article class="research-card" data-topic="llm">
-          <span class="icon">🧠</span>
-          <h3>LLMs & SLMs</h3>
-          <p>Using large and small language models for multimodal reasoning, text generation, and intelligent sensing.</p>
-        </article>
-        <article class="research-card" data-topic="security">
-          <span class="icon">🛡️</span>
-          <h3>Security & Privacy</h3>
-          <p>Studying poisoning, adversarial examples, prompt injection, and trustworthy AI defenses.</p>
-        </article>
-        <article class="research-card" data-topic="health">
-          <span class="icon">🏥</span>
-          <h3>Healthcare AI</h3>
-          <p>Designing AI-driven sensing systems for sensitive domains such as healthcare and smart environments.</p>
-        </article>
-      </div>
-      <div class="topic-panel reveal" id="topicPanel">
-        <h3>Human Activity Recognition</h3>
-        <p>My work combines sensor data, natural-language descriptions, and contrastive learning to improve activity understanding while analyzing how these systems fail under attack.</p>
-      </div>
-    </section>
-
-    <section class="section section-padding cvpr-section reveal">
-      <div class="cvpr-card">
+    <section id="publications" class="container section">
+      <div class="section-title-row">
         <div>
-          <p class="eyebrow">Featured CVPR 2026 Work</p>
-          <h2>Breaking Sensor-Text Alignment</h2>
-          <p>
-            This paper studies cross-modal attacks on contrastive multimodal human activity recognition systems, showing how poisoned text-side embeddings can disrupt sensor-text alignment and reduce model reliability.
-          </p>
-          <div class="mini-tags"><span>Contrastive Learning</span><span>Sensor-Text Alignment</span><span>Adversarial AI</span></div>
+          <h2>Selected Publications & Projects</h2>
+          <p class="muted">Use the filters to view papers by status or venue.</p>
         </div>
-        <a class="btn primary" href="#publications">See Paper</a>
-      </div>
-    </section>
-
-    <section class="section section-padding" id="experience">
-      <div class="section-title reveal">
-        <p class="eyebrow">Experience</p>
-        <h2>Academic, teaching, and research journey.</h2>
-      </div>
-      <div class="timeline reveal" id="timeline"></div>
-    </section>
-
-    <section class="section section-padding" id="skills">
-      <div class="section-title reveal">
-        <p class="eyebrow">Skills</p>
-        <h2>Technical toolkit.</h2>
-      </div>
-      <div class="skills-grid reveal" id="skillsGrid"></div>
-    </section>
-
-    <section class="section section-padding" id="publications">
-      <div class="section-title reveal">
-        <p class="eyebrow">Publications</p>
-        <h2>Selected papers and scholarly work.</h2>
-      </div>
-      <div class="filter-bar reveal" role="group" aria-label="Publication filters">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="cvpr">CVPR</button>
-        <button class="filter-btn" data-filter="har">HAR / Wearable AI</button>
-        <button class="filter-btn" data-filter="health">Healthcare</button>
-        <button class="filter-btn" data-filter="robotics">Robotics</button>
-      </div>
-      <div class="publication-list reveal" id="publicationList"></div>
-    </section>
-
-    <section class="section section-padding accent-section" id="projects">
-      <div class="section-title reveal">
-        <p class="eyebrow">Projects</p>
-        <h2>Interactive research and development projects.</h2>
-      </div>
-      <div class="project-grid reveal">
-        <article class="project-card">
-          <h3>Automated Fake News Detection</h3>
-          <p>Comparative analysis of machine learning and deep learning models including CNN, LSTM, DistilBERT, FinBERT, RoBERTa, ALBERT, ELECTRA, Gradient Boosting, and Random Forest.</p>
-          <span>Python · Jupyter Notebook · NLP</span>
-        </article>
-        <article class="project-card">
-          <h3>AI-Powered YouTube Surveillance and Crime Detection</h3>
-          <p>Developed Python-based tools using the YouTube API to collect, preprocess, and classify crime-related videos for analysis.</p>
-          <span>Python · YouTube API · Video AI</span>
-        </article>
-        <article class="project-card">
-          <h3>Secure Sensor-Text AI</h3>
-          <p>Research prototype for studying cross-modal attacks and robustness in contrastive human activity recognition.</p>
-          <span>PyTorch · DistilBERT · Sensor Data</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-padding" id="awards">
-      <div class="section-title reveal">
-        <p class="eyebrow">Awards & Leadership</p>
-        <h2>Recognition and service.</h2>
-      </div>
-      <div class="awards-grid reveal">
-        <div class="glass-card"><h3>GPSC Travel and Conference Award</h3><p>Graduate and Professional Student Council, 2024.</p></div>
-        <div class="glass-card"><h3>BSN Travel Award</h3><p>IEEE-EMBS International Conference on Body Sensor Networks, 2024.</p></div>
-        <div class="glass-card"><h3>Secretary</h3><p>Sri Lankan Student Association, SIUC, 2025–2026.</p></div>
-      </div>
-    </section>
-
-    <section class="section section-padding contact-section" id="contact">
-      <div class="contact-card reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s connect for research, collaboration, and conference conversations.</h2>
-        <p>I am based in Carbondale, Illinois, and currently pursuing my PhD at Southern Illinois University.</p>
-        <div class="contact-links">
-          <a href="mailto:malithi.mithsara@siu.edu">malithi.mithsara@siu.edu</a>
-          <a href="mailto:malithi.mith@gmail.com">malithi.mith@gmail.com</a>
-          <a href="https://github.com/Malithi-gif" target="_blank" rel="noopener">GitHub: Malithi-gif</a>
-          <a href="https://linkedin.com/in/malithi-mithsara-6a6668156" target="_blank" rel="noopener">LinkedIn: Malithi Mithsara</a>
+        <div class="filters" aria-label="Publication filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="conference">Conference</button>
+          <button class="filter" data-filter="journal">Journal/Review</button>
+          <button class="filter" data-filter="workshop">Workshop</button>
         </div>
+      </div>
+
+      <div class="paper-list">
+        <article class="paper featured" data-category="conference">
+          <div class="paper-year">CVPR 2026</div>
+          <div class="paper-content">
+            <h3>Breaking Sensor-Text Alignment: Cross-Modal Attack on Contrastive Multimodal Human Activity Recognition</h3>
+            <p class="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026</p>
+            <p class="summary">Introduces a cross-modal embedding poisoning attack that disrupts contrastive alignment between wearable sensor data and text descriptions across WISDM, MotionSense, HHAR, and WESAD.</p>
+            <div class="paper-actions"><button class="abstract-btn">abstract</button><a href="#" class="disabled-link" aria-disabled="true">project page soon</a></div>
+            <p class="abstract hidden">This work studies a search-based text-embedding perturbation attack during inference. The attack reduces correct sensor-text cosine similarity, increases contrastive loss, and causes semantic drift in shared embedding spaces.</p>
+          </div>
+        </article>
+
+        <article class="paper" data-category="journal">
+          <div class="paper-year">Reviewing 2026</div>
+          <div class="paper-content">
+            <h3>Adaptive and Robust Data Poisoning Detection and Sanitization in Wearable IoT Systems using Large Language Models</h3>
+            <p class="venue">IEEE Transactions on Human-Machine Systems, under review</p>
+            <p class="summary">LLM-based framework for detecting and sanitizing poisoned labels in wearable IoT and HAR sensor data.</p>
+            <div class="paper-actions"><a href="https://arxiv.org/abs/2511.02894" target="_blank" rel="noopener">arXiv</a></div>
+          </div>
+        </article>
+
+        <article class="paper" data-category="journal">
+          <div class="paper-year">Reviewing 2026</div>
+          <div class="paper-content">
+            <h3>A Comprehensive Survey of Large Language Models for Human Activity Recognition: Opportunities, Challenges, and Future Directions</h3>
+            <p class="venue">IEEE Transactions on Computational Intelligence, under review</p>
+            <p class="summary">Survey of LLM opportunities, challenges, and future directions for sensor-based human activity recognition.</p>
+            <div class="paper-actions"><a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176162216.64823146/v1" target="_blank" rel="noopener">TechRxiv</a></div>
+          </div>
+        </article>
+
+        <article class="paper" data-category="journal">
+          <div class="paper-year">Reviewing 2026</div>
+          <div class="paper-content">
+            <h3>Federated Small Language Models for Personalized and Interpretable Women's Health Support on Consumer Devices</h3>
+            <p class="venue">IEEE Transactions on Consumer Electronics, under review</p>
+            <p class="summary">Federated SLM pipeline for personalized phase prediction and interpretable feedback generation on consumer devices.</p>
+          </div>
+        </article>
+
+        <article class="paper" data-category="conference">
+          <div class="paper-year">ICMLA 2024</div>
+          <div class="paper-content">
+            <h3>Zero-Shot Detection and Sanitization of Data Poisoning Attacks in Wearable AI Using Large Language Models</h3>
+            <p class="venue">23rd International Conference on Machine Learning and Applications</p>
+            <p class="summary">Zero-shot LLM-based poisoning detection and label sanitization for wearable AI systems.</p>
+            <div class="paper-actions"><a href="https://ieeexplore.ieee.org/abstract/document/10903508" target="_blank" rel="noopener">IEEE</a></div>
+          </div>
+        </article>
+
+        <article class="paper" data-category="workshop">
+          <div class="paper-year">NeurIPS 2024</div>
+          <div class="paper-content">
+            <h3>Poster: Leveraging Large Language Models for Zero-Shot Detection and Mitigation of Data Poisoning in Wearable AI Systems</h3>
+            <p class="venue">GenAI for Health Workshop</p>
+            <p class="summary">Workshop poster on LLM-driven poisoning detection and mitigation in wearable AI systems.</p>
+          </div>
+        </article>
+
+        <article class="paper" data-category="conference">
+          <div class="paper-year">COMPSAC 2024</div>
+          <div class="paper-content">
+            <h3>Large Language Model Integrated Healthcare Cyber-Physical Systems Architecture</h3>
+            <p class="venue">IEEE 48th Annual Computers, Software, and Applications Conference</p>
+            <p class="summary">Architecture for integrating language models into healthcare cyber-physical systems.</p>
+            <div class="paper-actions"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10633554" target="_blank" rel="noopener">IEEE</a></div>
+          </div>
+        </article>
+
+        <article class="paper" data-category="conference">
+          <div class="paper-year">ICMLA 2024</div>
+          <div class="paper-content">
+            <h3>Intelligent Fall Detection and Emergency Response for Smart Homes Using Language Models</h3>
+            <p class="venue">23rd International Conference on Machine Learning and Applications</p>
+            <p class="summary">Language-model-assisted fall detection and safety communication for smart home environments.</p>
+            <div class="paper-actions"><a href="https://ieeexplore.ieee.org/abstract/document/10903502" target="_blank" rel="noopener">IEEE</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Research Highlights</h2>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <h3>Cross-Modal HAR Security</h3>
+          <p>Evaluating inference-time text-embedding attacks against contrastive multimodal HAR systems.</p>
+          <div class="tags"><span>DistilBERT</span><span>PGD</span><span>Contrastive Learning</span></div>
+        </article>
+        <article class="highlight-card">
+          <h3>Poisoning Detection in Wearable AI</h3>
+          <p>Using LLMs to identify and sanitize poisoned activity labels in sensor-based HAR datasets.</p>
+          <div class="tags"><span>LLMs</span><span>HAR</span><span>Security</span></div>
+        </article>
+        <article class="highlight-card">
+          <h3>Federated SLMs for Women's Health</h3>
+          <p>Fine-tuning compact language models for personalized, privacy-preserving health support.</p>
+          <div class="tags"><span>Qwen</span><span>LoRA</span><span>Federated Learning</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="container section two-col">
+      <div>
+        <h2>Experience</h2>
+        <p class="muted">Academic teaching, research, and service experience across computer science, machine learning, and accreditation support.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>2024–Present</span><strong>Graduate Teaching Assistant, Southern Illinois University</strong><p>Teaching, ABET documentation, and research on LLMs/SLMs for multimodal AI.</p></div>
+        <div class="timeline-item"><span>2023</span><strong>Assistant Lecturer, Informatics Institute of Technology</strong><p>Taught computer science and supervised final-year research projects.</p></div>
+        <div class="timeline-item"><span>2021–2023</span><strong>Temporary Lecturer, Rajarata University of Sri Lanka</strong><p>Taught undergraduate ICT and computer science courses and supervised projects.</p></div>
+        <div class="timeline-item"><span>2020–2021</span><strong>Research Assistant, SLIIT</strong><p>Research in computer vision, machine learning, and graph neural networks.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section contact-section">
+      <h2>Contact</h2>
+      <p>I am open to research collaboration in trustworthy multimodal AI, sensor-based HAR, healthcare AI, and small language model deployment.</p>
+      <div class="contact-cards">
+        <a href="mailto:malithi.mithsara@siu.edu">malithi.mithsara@siu.edu</a>
+        <a href="mailto:malithi.mith@gmail.com">malithi.mith@gmail.com</a>
+        <a href="https://github.com/Malithi-gif" target="_blank" rel="noopener">GitHub: Malithi-gif</a>
+        <a href="https://scholar.google.com/citations?user=gChnHewAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Malithi Mithsara. Built for academic, research.</p>
-    <a href="#top">Back to top ↑</a>
+    <div class="container">© <span id="year"></span> Malithi Mithsara. Built for an academic portfolio.</div>
   </footer>
 
   <script src="script.js"></script>
