@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const sidebar = document.getElementById('sidebar');
 const menuToggle = document.getElementById('menuToggle');
 const toTop = document.getElementById('toTop');
@@ -26,3 +27,19 @@ window.addEventListener('scroll', () => {
 });
 
 toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+=======
+const themeToggle = document.getElementById('themeToggle');
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme === 'dark') {
+  document.body.classList.add('dark');
+  themeToggle.textContent = 'Light';
+}
+
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  const isDark = document.body.classList.contains('dark');
+  themeToggle.textContent = isDark ? 'Light' : 'Dark';
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+});
+>>>>>>> 51ab5319f6810951c216942d92644d6d3c6b8d8d
